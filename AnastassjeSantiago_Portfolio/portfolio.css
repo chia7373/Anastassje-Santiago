@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*
+   Portfolio
+
+   Filename: portfolio.css
+*/
+
+
+/* HTML and Body Styles */
+
+html {
+   background: rgb(191, 191, 191);
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   color: rgb(101, 101, 101);
+}
+
+body {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;  
+   -webkit-align-items: flex-end;
+   align-items: flex-end; 
+   background: white;
+   max-width: 1020px;
+   min-width: 420px;
+   margin: 0px auto;
+   box-shadow: rgb(51, 51, 51) 10px 10px 25px,  rgb(51, 51, 51) -10px 10px 25px;
+}
